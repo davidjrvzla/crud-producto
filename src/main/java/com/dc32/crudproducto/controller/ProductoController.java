@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.dc32.crudproducto.model.Producto;
 import com.dc32.crudproducto.repository.ProductoRepository;
 
-@CrossOrigin(origins = "https://davidjrvzla.github.io", "http://localhost:4200")
+@CrossOrigin(origins = {"https://davidjrvzla.github.io", "http://localhost:4200"})
 @RestController
 @RequestMapping("/api")
 public class ProductoController {
